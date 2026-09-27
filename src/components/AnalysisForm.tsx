@@ -10,8 +10,7 @@ import {
   Flame, 
   Clock, 
   AlertCircle,
-  FileCheck2,
-  User
+  FileCheck2
 } from 'lucide-react';
 import { HandSymptoms } from '../types/dermatology';
 import { HandZoneSelector } from './HandZoneSelector';
@@ -202,10 +201,6 @@ export const AnalysisForm: React.FC<AnalysisFormProps> = ({ onAnalyze, isLoading
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/20 text-teal-300 text-xs font-semibold border border-teal-500/30">
               <Sparkles className="w-3.5 h-3.5" />
               <span>AI Dermatologik Tashxis Tizimi</span>
-            </div>
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/10 text-white text-xs font-medium border border-white/20">
-              <User className="w-3.5 h-3.5 text-teal-300" />
-              <span>Loyiha muallifi: <strong className="font-bold text-teal-200">Qadamova Zulayho</strong></span>
             </div>
           </div>
           <h2 className="text-2xl sm:text-4xl font-extrabold tracking-tight leading-tight">

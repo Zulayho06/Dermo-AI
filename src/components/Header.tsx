@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, Activity, BookOpen, MessageSquareText, ShieldAlert, History, User } from 'lucide-react';
+import { Sparkles, Activity, BookOpen, MessageSquareText, ShieldAlert, History } from 'lucide-react';
 
 export type TabType = 'analyzer' | 'atlas' | 'chat' | 'guide' | 'history';
 
@@ -20,10 +20,6 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, history
             <p className="truncate text-slate-200">
               <span className="font-semibold text-amber-300">Tibbiy ogohlantirish:</span> Dastlabki baholash sun&apos;iy intellekt tomonidan amalga oshiriladi. O&apos;tkir infeksiya va qattiq og&apos;riqda shifokorga (103) murojaat qiling.
             </p>
-          </div>
-          <div className="hidden sm:flex items-center gap-1.5 shrink-0 text-[11px] text-teal-200 font-medium bg-white/10 px-2 py-0.5 rounded-full border border-white/10">
-            <User className="w-3 h-3 text-teal-300" />
-            <span>Muallif: <strong className="text-white font-semibold">Qadamova Zulayho</strong></span>
           </div>
         </div>
       </div>
@@ -49,11 +45,6 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, history
               </div>
               <div className="flex items-center gap-1.5 text-xs text-slate-500 mt-0.5">
                 <span className="hidden sm:inline">Qo&apos;l dermatozlari tahlili</span>
-                <span className="hidden sm:inline text-slate-300">•</span>
-                <span className="text-teal-700 font-semibold flex items-center gap-1">
-                  <User className="w-3 h-3 text-teal-600" />
-                  <span>Muallif: Qadamova Zulayho</span>
-                </span>
               </div>
             </div>
           </div>
