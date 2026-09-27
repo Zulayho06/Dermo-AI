@@ -1,0 +1,6 @@
+{
+  "name": "DermoQo'l AI - Qo'l Dermatologiyasi",
+  "description": "Qo'ldagi teri kasalliklarini sun'iy intellekt yordamida aniqlash, tavsiyalar olish va professional dermatologik parvarish ilovasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
