@@ -74,7 +74,7 @@ export const AnalysisResultView: React.FC<AnalysisResultViewProps> = ({
         <div className="flex items-center justify-between">
           <div>
             <h1 className="text-xl font-bold text-slate-900">DermoQo‘l AI — Tibbiy Dermatologik Tahlil Xulosasi</h1>
-            <p className="text-xs text-slate-700 font-semibold mt-0.5">Tizim muallifi: Qadamova Zulayho</p>
+            <p className="text-xs text-slate-500 mt-0.5">Qo‘l terisi kasalliklari bo‘yicha avtomatlashtirilgan dastlabki xulosa</p>
           </div>
           <div className="text-right text-xs text-slate-500 font-mono">
             {new Date(result.timestamp || Date.now()).toLocaleString('uz-UZ')}
@@ -92,9 +92,6 @@ export const AnalysisResultView: React.FC<AnalysisResultViewProps> = ({
             <RotateCcw className="w-4 h-4" />
             <span>Yangi tahlil</span>
           </button>
-          <div className="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-teal-50 text-teal-800 border border-teal-200 text-xs font-medium">
-            <span>Muallif: <strong className="font-semibold">Qadamova Zulayho</strong></span>
-          </div>
         </div>
 
         <div className="flex items-center gap-2">

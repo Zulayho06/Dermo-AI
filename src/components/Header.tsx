@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, Activity, BookOpen, MessageSquareText, ShieldAlert, History, User } from 'lucide-react';
+import { Sparkles, Activity, BookOpen, MessageSquareText, ShieldAlert, History } from 'lucide-react';
 
 export type TabType = 'analyzer' | 'atlas' | 'chat' | 'guide' | 'history';
 
@@ -14,16 +14,12 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, history
     <header className="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-200">
       {/* Top emergency warning bar */}
       <div className="bg-gradient-to-r from-teal-800 via-cyan-900 to-slate-900 text-white text-xs px-4 py-1.5 flex items-center justify-between">
-        <div className="flex items-center justify-between max-w-6xl mx-auto w-full gap-2">
+        <div className="flex items-center justify-center max-w-6xl mx-auto w-full gap-2">
           <div className="flex items-center gap-2 truncate">
             <ShieldAlert className="w-3.5 h-3.5 text-amber-400 shrink-0" />
             <p className="truncate text-slate-200">
               <span className="font-semibold text-amber-300">Tibbiy ogohlantirish:</span> Dastlabki baholash sun&apos;iy intellekt tomonidan amalga oshiriladi. O&apos;tkir infeksiya va qattiq og&apos;riqda shifokorga (103) murojaat qiling.
             </p>
-          </div>
-          <div className="hidden sm:flex items-center gap-1.5 shrink-0 text-[11px] text-teal-200 font-medium bg-white/10 px-2 py-0.5 rounded-full border border-white/10">
-            <User className="w-3 h-3 text-teal-300" />
-            <span>Muallif: <strong className="text-white font-semibold">Qadamova Zulayho</strong></span>
           </div>
         </div>
       </div>
@@ -48,12 +44,7 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, history
                 </span>
               </div>
               <div className="flex items-center gap-1.5 text-xs text-slate-500 mt-0.5">
-                <span className="hidden sm:inline">Qo&apos;l dermatozlari tahlili</span>
-                <span className="hidden sm:inline text-slate-300">•</span>
-                <span className="text-teal-700 font-semibold flex items-center gap-1">
-                  <User className="w-3 h-3 text-teal-600" />
-                  <span>Muallif: Qadamova Zulayho</span>
-                </span>
+                <span>Qo&apos;l dermatozlari tahlili va tibbiy maslahat</span>
               </div>
             </div>
           </div>

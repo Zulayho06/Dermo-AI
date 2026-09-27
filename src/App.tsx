@@ -248,7 +248,7 @@ export default function App() {
 
           <div className="pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-500">
             <p>
-              © {new Date().getFullYear()} DermoQo&apos;l AI. Barcha huquqlar himoyalangan. | <span className="font-semibold text-slate-700">Muallif: Qadamova Zulayho</span>
+              © {new Date().getFullYear()} DermoQo&apos;l AI. Barcha huquqlar himoyalangan.
             </p>
             <div className="flex items-center gap-2">
               <HeartHandshake className="w-4 h-4 text-teal-600" />
